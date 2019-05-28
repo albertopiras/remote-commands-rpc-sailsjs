@@ -4,7 +4,7 @@ const csv = require('csv-parser');
 const uuidv1 = require('uuid/v1');
 
 const PROJECT_PATH =
-    '/usr/local/organization/home/YOUR_USER/Desktop/sailsjs-remote-commands-rpc/';
+    '/usr/local/organization/home/YOUR_USER/Desktop/remote-commands-rpc-sailsjs/';
 
 module.exports = {
 
@@ -25,10 +25,10 @@ module.exports = {
    * reads the movie description from a file with the same code.
    * writes an unique id file containing a copy of the file just readed.
    * runs 2 local commands:
-   * *cd to the folter where is the file
-   * *& print on screen the content of the file (cat command)
-   * return the description to the user
-   * remove file
+   * *cd to the folder where is the file.
+   * *& print on screen the content of the file (cat command).
+   * return the description to the user.
+   * remove file.
    **/
   getMovieDescription: async function(req, res) {
     let movieParam = req.param('movieName');

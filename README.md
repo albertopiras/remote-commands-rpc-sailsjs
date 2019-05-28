@@ -8,7 +8,7 @@
 
 - It exposes an endpoint to retrieve the description of a film:
 	> **POST query string:**  http://localhost:1337/api/getMovieDescription?movieName=ironman
-	
+
 	> **POST payload:**  http://localhost:1337/api/getMovieDescription?movieName // { "movieName": "ironman"}
 
 The description is retrieved after executing few commands:  
@@ -21,14 +21,17 @@ The description is retrieved after executing few commands:
 
 	- run 2 bash file system commands: (it's just an example of how to execute commands :D)
 
-	- -cd to the folter where is the file
+	- -cd to the folder where is the file
 
-	- -print on screen the content of the file (cat command, and waits 2 seconds, to simulate longer operations)
+	- -print on screen the content of the file (cat command, and wait 2 seconds, to simulate longer operations)
 
 	- return the movie description to the user
 
 	- remove file
 
+
+
+	A proper message and error code is returned if no film description was found or an error occurred during one of the server operations.
 
 ## Setup
 

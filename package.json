@@ -1,10 +1,10 @@
 {
-  "name": "sailsjs-remote-commands-rpc",
+  "name": "remote-commands-rpc-sailsjs",
   "private": true,
   "version": "0.0.0",
   "description": "Remote RPC calls with sailsJS - example of writing/reading files, bash command executions, CSV parsing",
   "keywords": [
-    "sailsjs bash commands",
+    "sailsjs Bash file system commands",
     "server command",
     "csv node parsing",
     "sailsjs rpc"

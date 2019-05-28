@@ -8,6 +8,7 @@
 
 - It exposes an endpoint to retrieve the description of a film:
 	> **POST query string:**  http://localhost:1337/api/getMovieDescription?movieName=ironman
+	
 	> **POST payload:**  http://localhost:1337/api/getMovieDescription?movieName // { "movieName": "ironman"}
 
 The description is retrieved after executing few commands:  

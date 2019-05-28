@@ -56,6 +56,10 @@ module.exports = {
 
 };
 
+/**
+ * Parses the requests, executes all server operations and returns the movie
+ * description.
+ */
 async function parseRequest(movieParam, userMessage) {
   let filmDescription, movieHashCode, movieFileName, newFileName;
 

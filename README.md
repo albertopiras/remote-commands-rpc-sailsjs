@@ -31,7 +31,7 @@ The description is retrieved after executing few commands:
 
 
 
-A proper message and error code is returned if no film description was found or an error occurred during one of the server operations.
+A proper message and error code are returned if no film description was found or an error occurred during one of the server operations.
 
 ## Setup
 
